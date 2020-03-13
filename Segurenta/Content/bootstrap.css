@@ -154,8 +154,8 @@ sup {
 
 .txt {
     position: absolute;
-    top: 3%;
-    left: 5%;
+    top: 10%;
+    left: -110px;
     transform: translate(5%, 30%);
 }
 
@@ -7024,7 +7024,15 @@ button.bg-dark:focus {
 
 @media (min-width: 360px) {
     .txt {
-        width: 550px;;
+        width: 347px;
+        position: absolute;
+        top: 50%;
+        left: -7%;
+    }
+    .somosinm {
+        font-size: 15px;
+        left: 50%;
+        transform: translate(-50%, 214%);
     }
     .datos-cont {
         flex: 1 0 25%;
@@ -7048,7 +7056,33 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 576px) {
-
+    .txt {
+        width: 537px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(5%, 30%);
+    }
+    .datos-cont {
+        flex: 0 0 25%;
+        max-width: 25%;
+        font-size: 15px;
+        padding: 10px;
+        border-radius: 15px;
+    }
+    .col4360 {
+        max-width: 33.333333%;
+    }
+    .col6369from {
+        flex: 0 0 50%;
+        max-width: 50%;
+        font-size: 15px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .formulario-cont {
+        -ms-flex: 1 0 66.666667%;
+    }
   .d-sm-none {
     display: none !important;
   }
@@ -7081,6 +7115,13 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 768px) {
+    .txt {
+        width: 537px;
+        position: absolute;
+        top: 50%;
+        left: -17%;
+        transform: translate(5%, 30%);
+    }
   .d-md-none {
     display: none !important;
   }
@@ -7113,6 +7154,11 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 992px) {
+    .somosinm {
+        font-size: 20px;
+        left: 50%;
+        transform: translate(-50%, 281%);
+    }
   .d-lg-none {
     display: none !important;
   }
@@ -7145,6 +7191,12 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 1200px) {
+    .somosinm {
+        font-size: 20px;
+        left: 50%;
+        transform: translate(-40%, 225%);
+    }
+    
   .d-xl-none {
     display: none !important;
   }
@@ -10294,14 +10346,8 @@ a.text-dark:hover, a.text-dark:focus {
   .container {
     min-width: 992px !important;
   }
-
-  .contenedor {
-      position:relative;
-      display: inline-block;
-      text-align: center;
-  }
   .navbar {
-    display: none;
+    display: flex;
   }
   .badge {
     border: 1px solid #000;

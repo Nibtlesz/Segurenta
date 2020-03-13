@@ -1,105 +1,109 @@
 ﻿<!DOCTYPE html>
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title</title>
-    <link rel="shortcut icon" href="~/Img/favicon.png" />
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
-</head>
-<body>
-    <span class="ir-arriba icon-arrow-up2" style="display: block;"></span>
-    <!--BARRA SUPERIOR-->
-    <div class="imagendiv">
-        <nav class="navbar justify-content-between bg-menu ">
-            <img src="~/Img/logo-segurenta.png" alt="logo" class="logo" />
-            <form class="form-inline">
-                <p>Bienvenido</p>
-            </form>
-        </nav>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>@ViewBag.Title</title>
+        <link rel="shortcut icon" href="~/Img/favicon.png" />
+        @Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr") 
+        @Styles.Render("~/Content/fonts")
+    </head>
+    <body>
+        <!--BARRA SUPERIOR-->
+        <div class="imagendiv">
+            <nav class="navbar justify-content-between bg-menu ">
+                <img src="~/Img/logo-segurenta.png" alt="logo" class="logo" />
+                <form class="form-inline">
+                    <p>Bienvenido</p>
+                </form>
+            </nav>
 
-        <!--TITULO SEGURENTA-->
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-md-6">
-                    <img src="~/Img/segurenta.png" alt="txt" class="img-responsive txt"/>
-                </div>
-                <div class="col-xs-12 col-md-6 ">
-                    <div class="float-right somosinm">
-                        <p>Somos una empresa que brinda protección y seguridad para propietarios e inquilinos, en materia de arrendamiento inmobiliario a través de una cobertura jurídica.</p>
+            <!--TITULO SEGURENTA-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 ">
+                        <img src="~/Img/segurenta.png" alt="txt" class="img-responsive txt" />
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <br />
-    <br />
-    <br />
-
-    @RenderBody()
-    <!--CONTACTO-->
-    <form class="formcont " id="contact-form" name="contact-form" method="post">
-        <div class="col-5" id="enviado_form"></div>
-        <div class="row" style="margin-right: 0px !important;">
-            <br />
-            <br />
-        </div>
-        <div class="row" style="margin-right: 0px !important;">
-            <div class="col-4 col4360"></div>
-        </div>
-        <div class="col-8 formulario-cont">
-            <div class="row">
-                <div class="col-3 datos-cont">
-                    <p>Déjanos tus datos</p>
                 </div>
             </div>
             <div class="row" style="margin-right: 0px !important;">
-                <div class="col-6 col6369from">
-                    <br />
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="inputnombre" placeholder="Nombre *" name="nombre" value="" required />
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <input type="email" class="form-control" id="inputcorreo" placeholder="Correo *" name="nombre" value="" required />
-                        </div>
-                        <div class="form-group col-md-6">
-                            <input type="text" class="form-control" id="inputtelefono" placeholder="Telefono *" name="telefono" value="" required />
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="mr-sm-2 clienform" for="inlineFormCustomSelect">Tipo de cliente *</label>
-                        <select class="form-control" id="inputtip_cli" name="tip_clie" required>
-                            <option value="Propietario"> Propietario</option>
-                            <option value="Asesor_financiero">Asesor financiero</option>
-                        </select>
-                        <br />
-                        <input type="button" class="btn btn-primary" id="enviar_form" value="Enviar" />
+                <div class="col-md-6"></div>
+                <div class="col-md-4 col-md-offset-4">
+                    <div class="float-right somosinm">
+                       <p>Somos una empresa que brinda protección y seguridad para propietarios e inquilinos, en materia de arrendamiento inmobiliario a través de una cobertura jurídica.</p>
                     </div>
                 </div>
             </div>
         </div>
-    </form>
 
-    <!--PIE DE PAGINA-->
-    <footer class="page-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <p>Segurenta®</p>
-                </div>
-                <div class="col col-md-4">
-                    <p>Lanzamiento Agosto 2019</p>
+        <br />
+        <br />
+        <br />
+
+        @RenderBody()
+        <!--CONTACTO-->
+        <form class="formcont " id="contact-form" name="contact-form" method="post">
+            <div class="col-5" id="enviado_form"></div>
+            <div class="row" style="margin-right: 0px !important;">
+                <br />
+                <br />
+            </div>
+            <div class="row" style="margin-right: 0px !important;">
+                <div class="col-4 col4360"></div>
+                <div class="col-8 formulario-cont">
+                    <div class="row">
+                        <div class="col-3 datos-cont">
+                            <p>Déjanos tus datos</p>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-right: 0px !important;">
+                        <div class="col-6 col6369from">
+                            <br />
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="inputnombre" placeholder="Nombre *" name="nombre" value="" required />
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <input type="email" class="form-control" id="inputcorreo" placeholder="Correo *" name="nombre" value="" required />
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form-control" id="inputtelefono" placeholder="Telefono *" name="telefono" value="" required />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="mr-sm-2 clienform" for="inlineFormCustomSelect">Tipo de cliente *</label>
+                                <select class="form-control" id="inputtip_cli" name="tip_clie" required>
+                                    <option selected value="Propietario"> Propietario</option>
+                                    <option value="Asesor_financiero">Asesor financiero</option>
+                                </select>
+                                <br />
+                                <input type="button" class="btn btn-primary" id="enviar_form" value="Enviar" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
-
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
-</body>
+        </form>
+     
+        <!--PIE DE PAGINA-->
+        <footer class="page-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p>Segurenta®</p>
+                    </div>
+                    <div class="col col-md-4">
+                        <p>Lanzamiento Agosto 2019</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <span class="ir-arriba fa-arrow-up" style="display: none;"></span>
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/arriba")
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)
+    </body>
 </html>

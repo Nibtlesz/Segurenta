@@ -71,7 +71,6 @@ C:\Users\emman\source\repos\Segurenta\Segurenta\bin\es\System.Web.Razor.resource
 C:\Users\emman\source\repos\Segurenta\Segurenta\bin\es\System.Web.WebPages.resources.dll
 C:\Users\emman\source\repos\Segurenta\Segurenta\bin\es\System.Web.WebPages.Deployment.resources.dll
 C:\Users\emman\source\repos\Segurenta\Segurenta\bin\es\System.Web.WebPages.Razor.resources.dll
-C:\Users\emman\source\repos\Segurenta\Segurenta\obj\Debug\Segurenta.csprojAssemblyReference.cache
 C:\Users\emman\source\repos\Segurenta\Segurenta\obj\Debug\Segurenta.csproj.CoreCompileInputs.cache
 C:\Users\emman\source\repos\Segurenta\Segurenta\obj\Debug\Segurenta.csproj.CopyComplete
 C:\Users\emman\source\repos\Segurenta\Segurenta\obj\Debug\Segurenta.dll
@@ -84,3 +83,4 @@ C:\Users\emman\source\repos\Segurenta\Segurenta\bin\roslyn\System.Net.Http.dll
 C:\Users\emman\source\repos\Segurenta\Segurenta\bin\roslyn\System.Net.Sockets.dll
 C:\Users\emman\source\repos\Segurenta\Segurenta\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
 C:\Users\emman\source\repos\Segurenta\Segurenta\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\emman\source\repos\segurenta\Segurenta\obj\Debug\Segurenta.csprojAssemblyReference.cache
