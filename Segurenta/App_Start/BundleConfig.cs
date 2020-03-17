@@ -33,7 +33,7 @@ namespace Segurenta
                         "~/Scripts/arriba.js"));
 
             bundles.Add(new StyleBundle("~/Content/fonts").Include(
-                        "~/Fonts/all.css"));
+                        "~/Content/font-awesome.css"));
         }
     }
 }
